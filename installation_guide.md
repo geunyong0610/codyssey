@@ -59,9 +59,9 @@ source ~/.zshrc
 pip3 install Flask
 ```
 
-## 4. 터미널에서 파이썬 실행하여 "Hello" 출력하기
+## 4. 터미널에서 파이썬 실행하여 "Hello" 반환하는 함수 작성하기
 
-파이썬이 정상적으로 설치되었는지 확인하기 위해, 터미널에서 파이썬을 실행하고 `Hello`를 출력하는 코드를 작성합니다:
+파이썬을 실행하고 `hello`라는 함수를 작성하여 `"Hello"`를 반환하게 합니다:
 
 1. 터미널에서 파이썬 셸을 실행합니다:
 
@@ -69,13 +69,20 @@ pip3 install Flask
    python3
    ```
 
-2. 파이썬 셸에서 다음 코드를 입력하여 "Hello"를 출력합니다:
+2. 파이썬 셸에서 다음과 같이 `hello` 함수를 작성합니다:
 
    ```python
-   print("Hello")
+   def hello():
+       return "Hello"
    ```
 
-3. 출력 결과로 `"Hello"`가 나오는지 확인합니다.
+3. 함수를 실행하여 `"Hello"`를 반환하는지 확인합니다:
+
+   ```python
+   hello()
+   ```
+
+4. `"Hello"`가 반환되는지 확인합니다.
 
 ## 5. Visual Studio Code 설치 및 Material Icon Theme 설치하기
 
